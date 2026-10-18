@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Savir <hector.blanco.rivas@gmail.com>"]
+channels = ["conda-forge"]
+name = "my_tests"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.11,<3.15"
+pillow = ">=12.3.0,<13"
+exiftool = ">=13.59,<14"
+7zip = ">=26.4,<27"
+zip = ">=3.0,<4"
